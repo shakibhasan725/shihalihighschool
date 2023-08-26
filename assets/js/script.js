@@ -1,5 +1,7 @@
 const sliderContainer = document.querySelector(".slider-container");
 const images = document.querySelectorAll(".slider-container img");
+const buttonM = document.getElementById("mobiledeviceB");
+const mobiledeviceC = document.getElementById("mobiledeviceC");
 
 let currentIndex = 0;
 
@@ -30,3 +32,5 @@ setInterval(slideNext, 4000); // Auto slide every 5 seconds
 
 // Initial slide
 updateSlider();
+
+
