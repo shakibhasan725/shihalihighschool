@@ -1,2 +1,0 @@
-# shihalihighschool
- High School Website
